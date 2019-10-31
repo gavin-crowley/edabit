@@ -62,7 +62,7 @@ function reverse(arr) {
   }
   
   
-  // Difference of Max and Min Numbers in Array
+  // //Difference of Max and Min Numbers in Array
   function diffMaxMin(arr) {
       return Math.max(...arr) - Math.min(...arr);
   }
