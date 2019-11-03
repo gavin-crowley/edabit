@@ -86,3 +86,36 @@ function ctoa(c) {
 function match(s1, s2) {
 	return s1.toLowerCase() === s2.toLowerCase();
 }
+
+// Create a function that checks if the argument is an integer or a string. Return int if it's an integer and str if it's a string.
+
+function intOrString(param) {
+  if (typeof param === "number") {
+    return "int";
+  } else if (typeof param === "string") {
+    return "str";
+	}
+}
+
+
+// determine if year is leap year 
+function isLeap(year) {
+	return (year % 400 === 0) || (year % 4 === 0 && year % 100 != 0 ) 
+}
+
+
+// Create a function that takes two integers and checks if they are equal.
+const isEqual = (n1, n2) => {
+	return typeof n1 === "string" || typeof n2 === "string" ?
+		false : n1 === n2;
+}
+
+// Convert int to str and vice versa 
+
+function toInt(str) {
+	return parseInt(str)
+}
+
+function toStr(int) {
+	return int.toString()
+}
