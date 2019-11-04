@@ -119,3 +119,11 @@ function toInt(str) {
 function toStr(int) {
 	return int.toString()
 }
+
+
+
+// If the number falls within the range, the number should be returned.
+// If the number is less than the lower limit of the range, the lower limit should be returned.
+// If the number is greater than the upper limit of the range, the upper limit should be returned.
+
+const limitNumber = (num, min, max) => Math.max(min, Math.min(max, num));
