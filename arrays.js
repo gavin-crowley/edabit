@@ -94,3 +94,16 @@ function reverse(arr) {
       return arr.filter(Boolean);
   }
   
+  // Implement a function that returns an array containing all the consecutive numbers in ascendant order from the given value low up to the given value high (bounds included).
+  function getSequence(low, high) {
+    const sequence = [];
+  
+    for (let i = low; i <= high; i++) {
+      sequence.push(i);
+    }
+  
+    return sequence;	
+  }
+
+
+  
