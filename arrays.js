@@ -105,5 +105,26 @@ function reverse(arr) {
     return sequence;	
   }
 
+  // Create a function that takes a number (from 1 to 12) and returns its corresponding month name as a string.
+  function monthName(num) {
+    const mapping = {
+      1: 'January',
+      2: 'February',
+      3: 'March',
+      4: 'April',
+      5: 'May',
+      6: 'June',
+      7: 'July',
+      8: 'August', 
+      9: 'September', 
+      10:	'October', 
+      11:	'November', 
+      12:	'December'
+    };
+    return mapping[num];
+  }
 
-  
+  function monthName(num) {
+    return new Date(2000, num - 1).toLocaleString("en-us", {month: "long"});
+  }
+
