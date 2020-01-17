@@ -178,6 +178,15 @@ class ResetPassword extends React.Component {
 };
 };
 
+//////////////////// k^k 
+Math.pow(k,k)
+// or 
+k**k 
+
+
+
+
+
 
 /////////////////////////asdasda////////////===========///asdad///////////////asdaasdadada
 //////////////////////////asdad/////////////////////////asdasd////////asdadasdas
@@ -187,3 +196,15 @@ class ResetPassword extends React.Component {
 // asdadasda
 // asdad //////////////////////////////////////////asdasda
 // sdfsdfsdfsasdasdads???????///////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
+
+if (num1 + num2 === 24) {
+  return 'added';
+} else if (num1 - num2 === 24) {
+  return 'subtracted';
+} else if ( num1 * num2 === 24) {
+  return 'multiplied';
+} else if ( num1 / num2 === 24) {
+  return 'divided';
+} else {
+  return null;
+}
