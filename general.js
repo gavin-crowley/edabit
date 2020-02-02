@@ -188,7 +188,7 @@ k**k
 
 
 
-/////////////////////////asdasda////////////===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
+/////////////////////////asdasda///////////asdasd/===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
 
 if (num1 + num2 === 24) {
   return 'added';
