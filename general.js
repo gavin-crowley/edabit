@@ -50,41 +50,41 @@ function isEvenOrOdd(num) {
 
 // Check String for Spaces
 function hasSpaces(str) {
-	return (/\s/).test(str);
+  return (/\s/).test(str);
 }
 
 function hasSpaces(str) {
-	return str.includes(' ')
+  return str.includes(' ')
 }
 
 
 // Count the # Arguments in a function call
 function numArgs() {
-	return arguments.length;
+  return arguments.length;
 }
 
 // Return the Total Number of Parameters
 function numberArgs() {
-	return arguments.length;
+  return arguments.length;
 }
 
 // Is the Word Singular or Plural?
 function isPlural(word) {
-	return word.endsWith("s");
+  return word.endsWith("s");
 }
 
 function isPlural(word) {
-	return word[word.length - 1] == 's';
+  return word[word.length - 1] == 's';
 }
 
 // Char-to-ASCII
 function ctoa(c) {
-	return c.charCodeAt(0);
+  return c.charCodeAt(0);
 }
 
 // Case Insensitive Comparison
 function match(s1, s2) {
-	return s1.toLowerCase() === s2.toLowerCase();
+  return s1.toLowerCase() === s2.toLowerCase();
 }
 
 // Create a function that checks if the argument is an integer or a string. Return int if it's an integer and str if it's a string.
@@ -94,30 +94,30 @@ function intOrString(param) {
     return "int";
   } else if (typeof param === "string") {
     return "str";
-	}
+  }
 }
 
 
 // determine if year is leap year 
 function isLeap(year) {
-	return (year % 400 === 0) || (year % 4 === 0 && year % 100 != 0 ) 
+  return (year % 400 === 0) || (year % 4 === 0 && year % 100 != 0)
 }
 
 
 // Create a function that takes two integers and checks if they are equal.
 const isEqual = (n1, n2) => {
-	return typeof n1 === "string" || typeof n2 === "string" ?
-		false : n1 === n2;
+  return typeof n1 === "string" || typeof n2 === "string" ?
+    false : n1 === n2;
 }
 
 // Convert int to str and vice versa 
 
 function toInt(str) {
-	return parseInt(str)
+  return parseInt(str)
 }
 
 function toStr(int) {
-	return int.toString()
+  return int.toString()
 }
 
 
@@ -149,11 +149,11 @@ class ReturnTempPassword extends React.Component {
   }
   render() {
     return (
-        <div>
-            { /* change code below this line */ }
-            <p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
-            { /* change code above this line */ }
-        </div>
+      <div>
+        { /* change code below this line */}
+        <p>Your temporary password is: <strong>{this.props.tempPassword}</strong></p>
+        { /* change code above this line */}
+      </div>
     );
   }
 };
@@ -165,23 +165,23 @@ class ResetPassword extends React.Component {
   }
   render() {
     return (
-        <div>
-          <h2>Reset Password</h2>
-          <h3>We've generated a new temporary password for you.</h3>
-          <h3>Please reset this password from your account settings ASAP.</h3>
-          { /* change code below this line */ }
-<ReturnTempPassword tempPassWord="abcoiuoabc" />
-          { /* change code above this line */ }
-        </div>
+      <div>
+        <h2>Reset Password</h2>
+        <h3>We've generated a new temporary password for you.</h3>
+        <h3>Please reset this password from your account settings ASAP.</h3>
+        { /* change code below this line */}
+        <ReturnTempPassword tempPassWord="abcoiuoabc" />
+        { /* change code above this line */}
+      </div>
     );
   }
 };
 };
 
 //////////////////// k^k 
-Math.pow(k,k)
+Math.pow(k, k)
 // or 
-k**k 
+k ** k
 
 
 
@@ -189,14 +189,14 @@ k**k
 
 
 /////////////////////////asdasda/////asdasd//////asdasd/===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
-// sdfsfdssdfsdfasdadsasasdadsa
+// sdfsfdssdfsdfasdadsasasdadsaasdasd
 if (num1 + num2 === 24) {
   return 'added';
 } else if (num1 - num2 === 24) {
   return 'subtracted';
-} else if ( num1 * num2 === 24) {
+} else if (num1 * num2 === 24) {
   return 'multiplied';
-} else if ( num1 / num2 === 24) {
+} else if (num1 / num2 === 24) {
   return 'divided';
 } else {
   return null;
