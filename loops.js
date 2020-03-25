@@ -4,6 +4,7 @@ function Go(num) {
 }
 // else.g. Go(5) ➞ "-----"
 
+// asdasdasd
 
 
 // Write a function that takes an integer and returns a string with the given number of "a"s in Edabit.
@@ -14,7 +15,7 @@ function howManyTimes(num) {
 
 // Additive Inverse
 function additiveInverse(arr) {
-	for ( var i = 0; i < arr.length; i++) {
+	for (var i = 0; i < arr.length; i++) {
 		arr[i] = -arr[i];
 	}
 	return arr;
@@ -33,8 +34,8 @@ function addEnding(arr, ending) {
 }
 
 function addEnding(arr, ending) {
-	for(var i=0; i < arr.length; i++){
-		arr[i] = arr[i]+ending;
+	for (var i = 0; i < arr.length; i++) {
+		arr[i] = arr[i] + ending;
 	}
 	return arr;
 }
@@ -46,7 +47,7 @@ function addEnding(arr, ending) {
 // Generate a Countdown of Numbers in an Array
 function countdown(start) {
 	let arr = []
-	for(let i=start; i>=0; i--){
+	for (let i = start; i >= 0; i--) {
 		arr.push(i)
 	}
 	return arr
