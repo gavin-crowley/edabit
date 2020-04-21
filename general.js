@@ -189,7 +189,7 @@ k ** k
 
 
 ///////////asdasdads////asdasasdadasddasasdasdwrewwasdasdasdasdasdsadasasad//qweqweqe//asasdasdasdfsdfsdfsdsadsa//////asdadasdasda/////asdasd/adasdas/////asdasd/===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
-// sdfsfdssdfsdfasdadsasasdqweqeqweadsaasdasdasdadasdasdasdas
+// sdfsfdssdfsdfasdadsasasdqweqeqweadsaasdasdasdadasdasdasdasasdasdasd
 if (num1 + num2 === 24) {
   return 'added';
 } else if (num1 - num2 === 24) {
