@@ -188,7 +188,7 @@ k ** k
 
 
 
-///////////asdasdads////asdasasdadasddasasdasdwasdasdadrewwasdasdasdasdasdsadasasad//qweqweqe//asasdasdasdfsdfsdfsdsadsa//////asdadasdasda/////asdasd/adasdas/////asdasd/===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
+///////////asdasdads////asdasasdadasddasasdaasdsadassdwasdasdadrewwasdasdasdasdasdsadasasad//qweqweqe//asasdasdasdfsdfsdfsdsadsa//////asdadasdasda/////asdasd/adasdas/////asdasd/===========///asdad///////////////asdaasdada//////asdasads//asasdasdaddaasdasdaddasd////////////?asdasdsa?????asdadsad/////////////////////asdasd
 // sdfsfdssdfsdfasdadsasasdqweqeqweadsaasdasdasdadasdasdasdasasdasdasd
 if (num1 + num2 === 24) {
   return 'added';
