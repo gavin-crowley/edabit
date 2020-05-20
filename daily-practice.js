@@ -15,3 +15,18 @@ function checkSquareAndCube(arr) {
 function checkSquareAndCube([a, b] = arr) {
     return Math.sqrt(a) === Math.cbrt(b)
 }
+
+// ES6: Destructuring Arrays I
+
+const arr = [1, 2, 3, 4, 5, 6]
+let a = arr[0]
+let b = arr[1]
+
+console.log(a) // outputs 1
+console.log(b) // outputs 2
+
+const arr = [1, 2, 3, 4, 5, 6]
+
+const [a, b, c, d, e] = arr
+// or 
+const [a, b, ...rest] = arr;
