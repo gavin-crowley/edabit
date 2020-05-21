@@ -30,3 +30,8 @@ const arr = [1, 2, 3, 4, 5, 6]
 const [a, b, c, d, e] = arr
 // or 
 const [a, b, ...rest] = arr;
+
+// Return the Sum of Two Numbers
+function addition(a, b) {
+    return a + b
+}
