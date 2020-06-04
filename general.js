@@ -188,7 +188,7 @@ k ** k
 
 
 
-///////////asdasdads////asdasasdadasddaasdasdasasdadasaasdaasdasdasdasdasdadasdadasdasdasdasdasasdasdasd
+///////////asdasdads////asdasasdadasdasdasdasdasddaasdasdasasdadasaasdaasdasdasdasdasdadasdadasdasdasdasdasasdasdasd
 if (num1 + num2 === 24) {
   return 'added';
 } else if (num1 - num2 === 24) {
