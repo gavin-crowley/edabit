@@ -178,7 +178,7 @@ class ResetPassword extends React.Component {
 };
 };
 
-//////////////////// k^k asdasdasdasdas
+//////////////////// k^k asdasdasdaasdadasdasdsdas
 Math.pow(k, k)
 // or 
 k ** k
